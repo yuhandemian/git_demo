@@ -13,16 +13,23 @@ package com.codeit;
 //1. //로 시작하는 한줄 주석
 //2. /* */ : 주석의 시작과 끝
 //3. 단축키 (cmd + /)를 활용 shift + 위 아래 화살표
-
 // 한줄 주석
 /*
-*  여러줄 주석
-*  여러줄 주석
-*  여러줄 주석
-* */
+ *  여러줄 주석
+ *  여러줄 주석
+ *  여러줄 주석
+ * */
 
 // javadoc 주석 - > 프로그램 문서를 자동으로 만들어주는 도구
 
+// import : 외부 패키지를 가져오는 명령어
+// F4나 ctrl + alt + -> / ctrl + cmd + ->로 소스코드 위치로 이동!
+// cmd + 클릭
+// -> 돌아올땐 ctrl + alt + <- ctrl + cmd + <-, 또는 마우스 5키 중에 뒤로가기
+// * : 모든 모듈 임포트용도, 사용하지 않는 모듈을 모두 임포트함으로 좋지않다고한다.
+//  -> import java.util.*;는 코테 용도로 외워라!!!
+
+import java.util.Date;
 
 /**
  * @apiNote :
@@ -36,12 +43,46 @@ package com.codeit;
 
 public class MyFirstClass {
 // main : 프로그램의 시작 경로 - > c언어의 진짜 main이 아닌  JVM이 실행시켜주는 위치
+// ※ 주의 main은 반드시 public static void main(String[] args) 꼴을 지켜야한다.
+// class당 하나만 존재 할 수 있다.
+// main -> 자동 완성, psvm도 자동완성 가능
+//String [] args -> java 실행시 의 외부 인자 입력값
 
   public static void main(String[] args) {
+    // 프로그램 시랭법 2가지
+    // 실행: run 버튼 shift + F10 : 실행
+    // 디버깅 : shift + F10
+
+    // 자동완성
+    // ctrl + space: 자동완성
+    // ctrl + shift + space: 스마트 자동완성
+    // tab : hint 자동완성
+
+    String str = "Hello World";
+    String str2 = "Hello World";
+
+    // sout : System.out.println()
+    System.out.println(str + str2);
+    System.out.print(""); //한 문장 출력이후 줄넘김 없음
     System.out.println("Hello World");
+
+    //fori : for문의 i 들어가는 거 자동 완성
+
+    for (int i = 0; i < 1; i++) {
+
+    }
+    //iter : advanced for 자동 완성
+    for (String arg : args) {
+    }
+
+    // 오류 고치는 방법
+    //1. 마우스로 오류(에러, 빨간줄) 위에 위치하면 인텔리제이가 자동으로 팁을 준다.
+//-> 해결까지 가능하다.
+// 2. alt + enter -> quick fix!
+    //  임포트 최적화 : ctnL + shift + 0
+    System.out.println(new Date());
   }
 }
-
 
 // 자주 사용하는 단축키 모음 ★★★★★
 
@@ -83,7 +124,7 @@ public class MyFirstClass {
 // alt + shift + insert (Cmd + Option + 8) : 열선택 모드 전환
 // alt + shift + click (option + shift + click) : 단어 선택 모드로 전환
 // shift + f6 (Mac 동일) : rename (변경된 이름은 다른 파일에서도 올바르게 변경됨)
-// ctrl + shift + u (cmd + shift + u) : 대소문자 변환
+// ctrl + shift + u (cmd + shift + u) : 대소문자 변환°
 // ctrl + alt + shift + t (ctrl + t) : 리팩토링 모드화
 // ctrl + alt + v (cmd + option + v) : extract variable
 // ctrl + alt + m (cmd + option + m) : extract method
