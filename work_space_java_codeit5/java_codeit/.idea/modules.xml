@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_MyFirstProject/01_MyFirstProject.iml" filepath="$PROJECT_DIR$/01_MyFirstProject/01_MyFirstProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_codeit.iml" filepath="$PROJECT_DIR$/java_codeit.iml" />
+    </modules>
+  </component>
+</project>
