@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01_MyFirstProject/01_MyFirstProject.iml" filepath="$PROJECT_DIR$/01_MyFirstProject/01_MyFirstProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/02_Variable/02_Variable.iml" filepath="$PROJECT_DIR$/02_Variable/02_Variable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_Operator/03_Operator.iml" filepath="$PROJECT_DIR$/03_Operator/03_Operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_ControlStatement/04_ControlStatement.iml" filepath="$PROJECT_DIR$/04_ControlStatement/04_ControlStatement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_Array/05_Array.iml" filepath="$PROJECT_DIR$/05_Array/05_Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_codeit.iml" filepath="$PROJECT_DIR$/java_codeit.iml" />
     </modules>
   </component>

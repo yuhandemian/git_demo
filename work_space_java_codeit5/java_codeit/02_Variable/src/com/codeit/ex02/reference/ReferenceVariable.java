@@ -41,7 +41,7 @@ public class ReferenceVariable {
         System.out.println(int1);
         System.out.println(int2);
         System.out.println(int3);
-
+sout
     }
 }
 
