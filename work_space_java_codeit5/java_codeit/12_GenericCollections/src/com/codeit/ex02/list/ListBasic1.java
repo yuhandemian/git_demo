@@ -26,4 +26,4 @@ public class ListBasic1 {
 //    memberArray[1] = new Member("testID2", "홍길동", 32, 53123.233);
 //    memberArray[2] = new Member("testID3", "박길동", 25, 41212.322);
 //  }
-
+}
