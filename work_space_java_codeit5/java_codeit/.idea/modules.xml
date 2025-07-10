@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/08_Inherit/08_Inherit.iml" filepath="$PROJECT_DIR$/08_Inherit/08_Inherit.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_Polymorphism/09_Polymorphism.iml" filepath="$PROJECT_DIR$/09_Polymorphism/09_Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_Library/10_Library.iml" filepath="$PROJECT_DIR$/10_Library/10_Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_Enum_Anno_Record/11_Enum_Anno_Record.iml" filepath="$PROJECT_DIR$/11_Enum_Anno_Record/11_Enum_Anno_Record.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_GenericCollections/12_GenericCollections.iml" filepath="$PROJECT_DIR$/12_GenericCollections/12_GenericCollections.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_codeit.iml" filepath="$PROJECT_DIR$/java_codeit.iml" />
     </modules>
   </component>

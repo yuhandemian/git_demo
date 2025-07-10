@@ -40,4 +40,3 @@ public class TypeCasting {
 
   }
 }
-안녕핫
