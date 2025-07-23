@@ -30,7 +30,7 @@ public class ObjectIO {
 
   //스프린트 과제에서 이렇게 하기
   public static void userObject(){
-    User user = new User("test1", "홍길동", 31, "test@email.com");
+    User user = new User();
     boolean result = saveObject("15_IO/objInfo", user);
     System.out.println(result);
 
