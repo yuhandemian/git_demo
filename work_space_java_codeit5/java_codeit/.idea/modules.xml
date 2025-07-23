@@ -16,6 +16,9 @@
       <module fileurl="file://$PROJECT_DIR$/12_GenericCollections/12_GenericCollections.iml" filepath="$PROJECT_DIR$/12_GenericCollections/12_GenericCollections.iml" />
       <module fileurl="file://$PROJECT_DIR$/13_Exception/13_Exception.iml" filepath="$PROJECT_DIR$/13_Exception/13_Exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/14_LambdaStream/14_LambdaStream.iml" filepath="$PROJECT_DIR$/14_LambdaStream/14_LambdaStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15_IO/15_IO.iml" filepath="$PROJECT_DIR$/15_IO/15_IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/15_IO.main.iml" filepath="$PROJECT_DIR$/.idea/modules/15_IO.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/15_IO.test.iml" filepath="$PROJECT_DIR$/.idea/modules/15_IO.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_codeit.iml" filepath="$PROJECT_DIR$/java_codeit.iml" />
     </modules>
   </component>
