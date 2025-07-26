@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.codeit'
-version = '0.0.1-SNAPSHOT'
+version = '1.0.0'
 
 java {
     toolchain {
@@ -19,10 +19,33 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
+
+    implementation ('org.springframework.boot:spring-boot-starter-web') {
+        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
+    }
+    implementation 'org.springframework.boot:spring-boot-starter-jetty'
+
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    compileOnly 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    //사용자가 추가한 의존성
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    runtimeOnly 'com.google.code.gson:gson:2.13.1'
+
+
+    // 버전 오버라이딩: Jackson 이전 버전
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.0'
+
+    // 선택적 의존성 추가
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0'
+
 }
+
 
 tasks.named('test') {
     useJUnitPlatform()
+
 }
