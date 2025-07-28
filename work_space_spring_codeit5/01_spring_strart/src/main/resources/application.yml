@@ -1,10 +1,8 @@
 spring:
   application:
     name: 01_spring_strart
-
-logging:
-  level:
-    root: info
+  profiles:
+    active: dev # dev /test / prod
 
 server:
   tomcat:

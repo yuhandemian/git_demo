@@ -5,11 +5,17 @@ plugins {
 }
 
 group = 'com.codeit'
-version = '1.0.0'
+version = '0.0.1-SNAPSHOT'
 
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
     }
 }
 
@@ -18,8 +24,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter'
-
     implementation ('org.springframework.boot:spring-boot-starter-web') {
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
     }
@@ -27,25 +31,23 @@ dependencies {
 
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     compileOnly 'org.projectlombok:lombok'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
-    //사용자가 추가한 의존성
     // https://mvnrepository.com/artifact/com.google.code.gson/gson
-    runtimeOnly 'com.google.code.gson:gson:2.13.1'
+    implementation 'com.google.code.gson:gson:2.13.1'
 
-
-    // 버전 오버라이딩: Jackson 이전 버전
+    // 버전 오버라이딩: Jackson 최신 버전
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.0'
 
     // 선택적 의존성 추가
-    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0'
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0' // 선택적
+
 
 }
 
-
 tasks.named('test') {
     useJUnitPlatform()
-
 }

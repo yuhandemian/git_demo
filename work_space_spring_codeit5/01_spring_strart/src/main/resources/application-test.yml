@@ -1,0 +1,9 @@
+#test 개발환경
+server:
+  port: 8082
+
+
+logging:
+  level:
+    root: INFO
+    org.springframework: DEBUG
