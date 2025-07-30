@@ -1,4 +1,4 @@
-package com.codeit.di.domain;
+package com.codeit.di.dto;
 
 
 import lombok.AllArgsConstructor;
@@ -6,14 +6,13 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Data
 @Builder
-public class User {
-    private Long id;
+public class UserLoginResponse {
     private String username;
-    private String password;
     private String name;
-    private String roles = "user"; // user / admin
+    private String roles;
+    private String message;
 }
