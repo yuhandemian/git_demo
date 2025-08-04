@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/15_IO/15_IO.iml" filepath="$PROJECT_DIR$/15_IO/15_IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/15_IO.main.iml" filepath="$PROJECT_DIR$/.idea/modules/15_IO.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/15_IO.test.iml" filepath="$PROJECT_DIR$/.idea/modules/15_IO.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20_ParsingCrawlingCsv/20_ParsingCrawlingCsv.iml" filepath="$PROJECT_DIR$/20_ParsingCrawlingCsv/20_ParsingCrawlingCsv.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_codeit.iml" filepath="$PROJECT_DIR$/java_codeit.iml" />
     </modules>
   </component>
